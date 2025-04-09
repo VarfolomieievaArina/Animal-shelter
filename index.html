@@ -12,14 +12,15 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header__menu">
-                <nav class="menu">
+            <div class="background-image-container border-bottom__container">
+                <img src="images/header.png" alt="black dog" class="background__header-image">
+            <div class="container">
+                <nav class="header__menu">
                     <ul class="menu__list">
                         <li class="menu__item menu__links-list-no-bullit">
                             <a href="#" class="menu__link">about us</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item-active">
                             <a href="#" class="menu__link">our animals</a>
                         </li>
                         <li class="menu__item">
@@ -30,15 +31,388 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
-             <div class="header__content"> 
+             <section class="header__content"> 
                 <h1 class="title-text">Happiness is closer than you think</h1>
-                <div class="header__button">
-                    <a class="button-text" href="#">Let’s Go!</a>
-                </div>
+                <button class="header__button" type="submit">Let’s Go!</button>
             </div>
         </div>
+        </div>
     </header>
-    
+    <main>
+        <div class="about-benefits__container border-bottom__container">   
+            <section class="heading__section about">
+                <div class="circle"></div>
+                <div class="about__image">
+                    <img src="images/charlie.png" alt="Charlie">
+                </div>
+                <div class="text-box__about">
+                    <h2>About us</h2>
+                    <div class="text-background text-background-about">
+                        <h3>My name is Charlie and I’m going to tell you about our project!</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits">
+                <div class="benefit benefit-start">
+                    <div class="benefit__number benefit__number-start benefit-color__number-1">1</div>
+                    <div class="benefit__content-start">
+                        <div class="benefit__image benefit__image-start">
+                        <img src="images/mentally-healthy.png" alt="mentally healthy">
+                    </div>
+                    <div class="text-box__benefit text-box__benefit-start background__circle-1-2">
+                         <h4>Mentally healthy</h4>
+                        <p class="benefit__description">For many people, especially those who are lonely, having a pet can be a valuable source of comfort and company. Renting a pet gives lonely people the opportunity to enjoy the presence and love of a pet, which can significantly increase their mood and well-being at such a difficult time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit benefit-end">
+                    <div class="benefit__number benefit__number-end benefit-color__number-2">2</div>
+                    <div class="benefit__content-end">
+                        <div class="benefit__image benefit__image-end">
+                            <img src="images/animal_socialization.png" alt="animal socialization">
+                        </div>
+                        <div class="text-box__benefit text-box__benefit-end background__circle-3">
+                            <h4>Animal socialization</h4>
+                            <p class="benefit__description">Many pets need to socialize and interact with people and other animals to be happy and healthy.
+                                Renting pets also helps those animals that are looking for a permanent home. While they are on rent, they receive care, attention and the opportunity to show their best qualities to potential adopters. This can significantly increase the chances of their successful adaptation and a happy life in a new home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit benefit-start">
+                    <div class="benefit__number benefit__number-start benefit-color__number-3">3</div>
+                    <div class="benefit__content-start">
+                        <div class="benefit__image benefit__image-start">
+                            <img src="images/convenience.png" alt="convenience">
+                        </div>
+                        <div class="text-box__benefit text-box__benefit-start background__circle-4">
+                            <h4>Convenience</h4>
+                            <p class="benefit__description">You choose your own rental period and schedule, convenient for you. All you need is to pick up your pet and enjoy a temporary companion.
+                                Renting allows you to enjoy the wonderful world of animals. You can gain valuable experience and understand whether a particular animal species suits you.</p>
+                        </div>
+                </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="our-animals__container border-bottom__container">
+            <section class="heading__section our-animals">
+                <div class="circle"></div>
+                <div class="about__image">
+                    <img src="images/charlie.png" alt="Charlie">
+                </div>
+                <div class="text-box__about background__circle-5">
+                    <h2>Our animals</h2>
+                    <div class="text-background text-background-our-animals">
+                     <h3>And now I'll introduce you to our pets</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="animals__cards background__circle-6-7">
+                <div class="cards container__cards">  
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/gary.png" alt="small gold dog" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Gary(male)</h5>
+                                <p class="card__subtitle">3 years</p>
+                            </div>
+                            <p class="card__description">Yorkshire Terrier</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/moon.png" alt="fluffy ginger cat" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Moon(famale)</h5>
+                                <p class="card__subtitle">1 years</p>
+                            </div>
+                            <p class="card__description">Siberian cat</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/spike.png" alt="white fluffy cat" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Spike(male)</h5>
+                                <p class="card__subtitle">2.5 years</p>
+                            </div>
+                            <p class="card__description">Maine Coon</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/peach.png" alt="spotted smooth-haired ginger cat" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Peach(male)</h5>
+                                <p class="card__subtitle">5 years</p>
+                            </div>
+                            <p class="card__description">Half Breed</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/willie.png" alt="white fluffy dog" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Willie(famale)</h5>
+                                <p class="card__subtitle">0.5 years</p>
+                            </div>
+                            <p class="card__description">Samoyed</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/kiwi.png" alt="small gold dog" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Kiwi(male)</h5>
+                                <p class="card__subtitle">4 years</p>
+                            </div>
+                            <p class="card__description">Yorkshire Terrier</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/whitney.png" alt="fluffy tabby kitten" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Whitney(famale)</h5>
+                                <p class="card__subtitle">3 months</p>
+                            </div>
+                            <p class="card__description">British Longhair</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container">
+                            <img src="images/buggy.png" alt="smooth coated spotted dog" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Buggy(male)</h5>
+                                <p class="card__subtitle">7 years</p>
+                            </div>
+                            <p class="card__description">Jack Russel Terrier</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container styles-for-vertical-photography">
+                            <img src="images/cake.png" alt="smooth coat spotted puppy" class="card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Cake(male)</h5>
+                                <p class="card__subtitle">2 months</p>
+                            </div>
+                            <p class="card__description">Welsh Corgi</p>
+                        </div>
+                    </a>
+                </div> 
+            </section>
+        </div>
+
+        <div class="our-store__container border-bottom__container">
+            <section class="heading__section our-store">
+                <div class="circle background__circle-8"></div>
+                <div class="about__image">
+                    <img src="images/charlie.png" alt="Charlie">
+                </div>
+                <div class="text-box__about background__circle-9">
+                    <h2>Our store</h2>
+                    <div class="text-background text-background-our-store">
+                     <h3>Here you can choose products for the kennel or for your dog</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="products__cards">
+                <div class="prod__cards products_container__cards background__circle-10">  
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/fancy_feast.png" alt="dry cat`s food with chicken & turkey" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Fancy Feast</h5>
+                                <p class="card__subtitle">35$</p>
+                            </div>
+                            <p class="card__description">Cat food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/Iams.png" alt="dry healsy cat`s food with tuna and salmon meal" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Iams</h5>
+                                <p class="card__subtitle">54$</p>
+                            </div>
+                            <p class="card__description">Cat food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/nulo.png" alt="different types of dry food for all cats" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">nulo</h5>
+                                <p class="card__subtitle">62$</p>
+                            </div>
+                            <p class="card__description">Cat food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/kibbles_n_bits.png" alt="dry dog`s food with beef & chicken flavors" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Kibbles nBits</h5>
+                                <p class="card__subtitle">28$</p>
+                            </div>
+                            <p class="card__description">Dog food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/cesar.png" alt="dry dog`s food with real beef" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Cesar</h5>
+                                <p class="card__subtitle">46$</p>
+                            </div>
+                            <p class="card__description">Dog food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/happy_dog.png" alt="different types of dry food for all dogs" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Happy dog</h5>
+                                <p class="card__subtitle">76$</p>
+                            </div>
+                            <p class="card__description">Dog food</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/wau_dog.png" alt="green dog collar" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Wau dog</h5>
+                                <p class="card__subtitle">10$</p>
+                            </div>
+                            <p class="card__description">collar for dog</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/wau_dog_for_cat.png" alt="colorful cat collar" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Wau dog</h5>
+                                <p class="card__subtitle">7$</p>
+                            </div>
+                            <p class="card__description">collar for cat</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card">
+                        <div class="card__image-container products_card__image-container">
+                            <img src="images/toy.png" alt="colorful balls" class="card__image products_card__image"/>
+                        </div>
+                        <div class="card__text">
+                            <div class="first-part-card_text">
+                                <h5 class="card__title">Toy</h5>
+                                <p class="card__subtitle">3$</p>
+                            </div>
+                            <p class="card__description">For dog and cat</p>
+                        </div>
+                    </a>   
+                </div> 
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="heading__section contacts">
+            <div class="circle"></div>
+            <div class="about__image">
+                <img src="images/charlie.png" alt="Charlie">
+            </div>
+            <div class="text-box__footer background__circle-11">
+                <h2>Contacts</h2>
+                <div class="text-background text-background-contacts">
+                 <h3 class="h3_footer">Thank you for the company it was a pleasure to meet you! here you can leave your phone number to contact our operator and also help our project with a donation</h3>
+                </div>
+            </div>
+        </section>
+        <section class="footer__content background__circle-12">
+            <form class="form" action="" method="get">
+                <p class="label__title">Enter your phone number</p> 
+                <div class="form__group">
+                  <input class="form__input" type="tel" name="number" id="number" required placeholder=" "/>
+                  <label class="form__label">Number</label>
+                </div>
+                <p class="label__title">You can also give us your email to receive news</p>
+                <div class="form__group">
+                  <input class="form__input" type="email" name="email" id="email" required placeholder=" "/>
+                  <label class="form__label" for="email">E-mail</label>
+                </div>
+                <button class="form__button" type="submit">send</button>
+              </form>
+        </section>
+        <section class="heading__section contacts border-bottom__container">
+            <div class="circle"></div>
+            <div class="about__image">
+                <img src="images/charlie.png" alt="Charlie">
+            </div>
+            <div class="text-box__footer">
+                <h2>Support me</h2>
+                <div class="text-background text-background-contacts">
+                 <h3 class="h3_footer">
+                    I will be glad for your support on this link
+                    <a href="https://www.buymeacoffee.com/nightfriend" target="blank" rel="noopener noreferrer">
+                        https://www.buymeacoffee.com/nightfriend
+                    </a>
+                    Or if you are from Russian, then on T-Bank or Sberbank</h3>
+                </div>
+            </div>
+        </section>
+        <section class="footer__content">
+            <ul class="bank-card-list">
+                <li class="bank-card-item">
+                    <div class="bank-card-icon">
+                        <img src="images/t_bank.svg" alt="T-Bank" width="133" height="133">
+                    </div>
+                    <p class="bank-card-number">5375 4141 2092 5051</p>
+                </li>
+                <li class="bank-card-item">
+                    <div class="bank-card-icon">
+                        <img src="images/sberbank.svg" alt="Sberbank" width="133" height="133">
+                    </div>
+                    <p class="bank-card-number">4149 4993 4992 1757</p>
+                </li>
+            </ul>
+        </section>
+        <div class="bottom__footer">
+            <p>st. Industrial, 3, Ivano-Frankivsk, Ivano-Frankivsk region, 76000</p>
+            <p>made by ...</p>
+        </div>
+    </footer>
 </body>
 </html>
